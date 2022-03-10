@@ -100,11 +100,11 @@ str(WtDTcol)
 ggtree(WtDTcol, layout = "circular") + geom_tiplab(size = 2, aes(angle = angle)) + geom_highlight(node = 43, fill = "purple") + geom_highlight(node = 42, fill = "khaki3") + geom_highlight(node = 5, fill = "darkorange2") + xlim(-50, NA)
 ```
 # Dragon Images
-[Dragon 1]!(https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.mos.cms.futurecdn.net%2FJYEXpJURGks76oHVBc5cik-1200-80.jpg&imgrefurl=https%3A%2F%2Fwww.livescience.com%2F25559-dragons.html&tbnid=5fxZrDx5JaqkgM&vet=12ahUKEwjE_KeD2rr2AhWto3IEHezjBQEQMygAegUIARDWAQ..i&docid=M3lf1aWtGsjSyM&w=1200&h=675&q=dragons&ved=2ahUKEwjE_KeD2rr2AhWto3IEHezjBQEQMygAegUIARDWAQ)
+[Dragon 1 (highlighted beige in circular phylogeny)]!(https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.mos.cms.futurecdn.net%2FJYEXpJURGks76oHVBc5cik-1200-80.jpg&imgrefurl=https%3A%2F%2Fwww.livescience.com%2F25559-dragons.html&tbnid=5fxZrDx5JaqkgM&vet=12ahUKEwjE_KeD2rr2AhWto3IEHezjBQEQMygAegUIARDWAQ..i&docid=M3lf1aWtGsjSyM&w=1200&h=675&q=dragons&ved=2ahUKEwjE_KeD2rr2AhWto3IEHezjBQEQMygAegUIARDWAQ)
 
-[Dragon 2]!(https://sp-ao.shortpixel.ai/client/q_glossy,ret_img,w_1050,h_485/https://thebrowngeeks.com/wp-content/uploads/2020/10/Dragon-Listicle-Feature-1050x485.jpg)
+[Dragon 2 (highlighted orange in phylogeny)]!(https://sp-ao.shortpixel.ai/client/q_glossy,ret_img,w_1050,h_485/https://thebrowngeeks.com/wp-content/uploads/2020/10/Dragon-Listicle-Feature-1050x485.jpg)
 
-[Dragon 3]!(https://artsphere.org/wp-content/uploads/2018/04/purple-dragon-400x340.jpg)
+[Dragon 3 (highlighted purple in phylogeny)]!(https://artsphere.org/wp-content/uploads/2018/04/purple-dragon-400x340.jpg)
 
 
 
