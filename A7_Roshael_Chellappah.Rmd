@@ -13,8 +13,6 @@ Repository Link: https://github.com/RoshaelC/DNAalignment.git
 ```{r}
 library(ape)
 DragonNexus <- read.nexus.data("input/DragonMatrix.nex")
-head(DragonNexus)
-names(DragonNexus)
 
 DragonNexusDF <- data.frame(matrix(unlist(DragonNexus), ncol = 78, byrow = T))
 row.names(DragonNexusDF) <- names(DragonNexus)
@@ -28,11 +26,6 @@ DragonDistMat <- as.matrix(DragonDist)
 ```{r}
 library(reshape2)
 PDat <- melt(DragonDistMat)
-dim(DragonDistMat)
-head(DragonDistMat)
-
-dim(PDat)
-head(PDat)
 ```
 ## Weights
 Setting up the weight distribution as done in Dragon Phylogeny Tutorial
@@ -91,12 +84,9 @@ Formatting the Tree
 ```{r}
 head(WtDragonTree$tip.label)
 
-Country <- gsub("[0-9\\.]+([^X]*).*", "\\1", WtDragonTree$tip.label)
-
-Country
+Country <- gsub("[0-9\\.]+([^X]*).*", "\\1", WtDragonTree$tip.label) # remove the Xs and Numbers from the names 
 
 CountryGroups <- split(WtDragonTree$tip.label, Country)
-CountryGroups
 
 library(ggtree)
 
